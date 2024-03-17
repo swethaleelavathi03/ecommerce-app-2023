@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
 
 const CreateCategory = () => {
 =======
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
 import React, { useEffect, useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -41,8 +44,13 @@ const CreateCategory = () => {
   const getAllCategory = async () => {
     try {
       const { data } = await axios.get("/api/v1/category/get-category");
+<<<<<<< HEAD
       if (data.success) {
         setCategories(data.category);
+=======
+      if (data?.success) {
+        setCategories(data?.category);
+>>>>>>> origin/09-Create-Products-Vid-19
       }
     } catch (error) {
       console.log(error);
@@ -92,7 +100,10 @@ const CreateCategory = () => {
       toast.error("Somtihing went wrong");
     }
   };
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
   return (
     <Layout title={"Dashboard - Create Category"}>
       <div className="container-fluid m-3 p-3">
@@ -102,8 +113,11 @@ const CreateCategory = () => {
           </div>
           <div className="col-md-9">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <h1>Create Category</h1>
 =======
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
             <h1>Manage Category</h1>
             <div className="p-3 w-50">
               <CategoryForm
@@ -162,7 +176,10 @@ const CreateCategory = () => {
                 handleSubmit={handleUpdate}
               />
             </Modal>
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
           </div>
         </div>
       </div>

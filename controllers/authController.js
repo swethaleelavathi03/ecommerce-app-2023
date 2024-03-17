@@ -25,6 +25,7 @@ export const registerController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     }
     if (!answer) {
@@ -50,6 +51,11 @@ export const registerController = async (req, res) => {
     if (!answer) {
       return res.send({ message: "Answer is Required" });
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+    }
+    if (!answer) {
+      return res.send({ message: "Answer is Required" });
+>>>>>>> origin/09-Create-Products-Vid-19
     }
     //check user
     const exisitingUser = await userModel.findOne({ email });

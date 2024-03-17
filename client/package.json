@@ -8,9 +8,13 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "antd": "^5.1.7",
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+    "antd": "^5.1.7",
+>>>>>>> origin/09-Create-Products-Vid-19
     "axios": "^1.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

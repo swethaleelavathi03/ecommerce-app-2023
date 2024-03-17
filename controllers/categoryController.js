@@ -10,10 +10,14 @@ export const createCategoryController = async (req, res) => {
     if (existingCategory) {
       return res.status(200).send({
 <<<<<<< HEAD
+<<<<<<< HEAD
         success: true,
 =======
         success: false,
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+        success: false,
+>>>>>>> origin/09-Create-Products-Vid-19
         message: "Category Already Exisits",
       });
     }

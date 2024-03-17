@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/auth";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,11 +33,18 @@ import "antd/dist/reset.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+import "antd/dist/reset.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+>>>>>>> origin/09-Create-Products-Vid-19
   <AuthProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
   </AuthProvider>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +61,8 @@ root.render(
 >>>>>>> origin/07-products-api-crud-vid-17
 =======
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -7,6 +7,7 @@ import authRoutes from "./routes/authRoute.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import categoryRoutes from "./routes/categoryRoutes.js";
 >>>>>>> origin/06-category-API-vid-16
@@ -18,6 +19,10 @@ import productRoutes from "./routes/productRoutes.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+import categoryRoutes from "./routes/categoryRoutes.js";
+import productRoutes from "./routes/productRoutes.js";
+>>>>>>> origin/09-Create-Products-Vid-19
 import cors from "cors";
 
 //configure env
@@ -39,12 +44,16 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 app.use("/api/v1/product", productRoutes);
 >>>>>>> origin/07-products-api-crud-vid-17
 =======
 app.use("/api/v1/product", productRoutes);
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+app.use("/api/v1/product", productRoutes);
+>>>>>>> origin/09-Create-Products-Vid-19
 
 //rest api
 app.get("/", (req, res) => {

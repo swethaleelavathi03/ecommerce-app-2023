@@ -11,6 +11,7 @@ import Login from "./pages/Auth/Login";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import Dashboard from "./pages/user/Dashboard";
 import PrivateRoute from "./components/Routes/Private";
@@ -23,6 +24,8 @@ import ForgotPasssword from "./pages/Auth/ForgotPasssword";
 >>>>>>> origin/07-products-api-crud-vid-17
 =======
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
 import Dashboard from "./pages/user/Dashboard";
 import PrivateRoute from "./components/Routes/Private";
 import ForgotPasssword from "./pages/Auth/ForgotPasssword";
@@ -36,6 +39,7 @@ import Profile from "./pages/user/Profile";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
@@ -43,11 +47,14 @@ import Profile from "./pages/user/Profile";
 >>>>>>> origin/07-products-api-crud-vid-17
 =======
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +75,8 @@ function App() {
 >>>>>>> origin/07-products-api-crud-vid-17
 =======
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="user" element={<Dashboard />} />
           <Route path="user/orders" element={<Orders />} />
@@ -84,6 +93,7 @@ function App() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
@@ -91,6 +101,8 @@ function App() {
 >>>>>>> origin/07-products-api-crud-vid-17
 =======
 >>>>>>> origin/08-React-Category-CRUD-vid-18
+=======
+>>>>>>> origin/09-Create-Products-Vid-19
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
