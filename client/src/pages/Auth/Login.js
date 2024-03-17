@@ -12,6 +12,7 @@ import axios from "axios";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
@@ -76,11 +77,17 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 >>>>>>> origin/14-payment-gateway-integration
+=======
+import { useNavigate, useLocation } from "react-router-dom";
+import toast from "react-hot-toast";
+import "../../styles/AuthStyles.css";
+>>>>>>> origin/15-admin-orders-css
 import { useAuth } from "../../context/auth";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +157,11 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 >>>>>>> origin/14-payment-gateway-integration
+=======
+
+  const navigate = useNavigate();
+  const location = useLocation();
+>>>>>>> origin/15-admin-orders-css
 
   // form function
   const handleSubmit = async (e) => {
@@ -161,6 +173,7 @@ const Login = () => {
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,12 +209,15 @@ const Login = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
         setAuth({
           ...auth,
           user: res.data.user,
           token: res.data.token,
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +264,9 @@ const Login = () => {
 =======
         navigate(location.state || "/");
 >>>>>>> origin/14-payment-gateway-integration
+=======
+        navigate(location.state || "/");
+>>>>>>> origin/15-admin-orders-css
       } else {
         toast.error(res.data.message);
       }
@@ -258,13 +277,21 @@ const Login = () => {
   };
   return (
     <Layout title="Register - Ecommer App">
+<<<<<<< HEAD
       <div className="form-container ">
+=======
+      <div className="form-container " style={{ minHeight: "90vh" }}>
+>>>>>>> origin/15-admin-orders-css
         <form onSubmit={handleSubmit}>
           <h4 className="title">LOGIN FORM</h4>
 
           <div className="mb-3">
             <input
               type="email"
+<<<<<<< HEAD
+=======
+              autoFocus
+>>>>>>> origin/15-admin-orders-css
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
@@ -284,6 +311,7 @@ const Login = () => {
               required
             />
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,6 +348,12 @@ const Login = () => {
             <button
               type="button"
               className="btn btn-primary"
+=======
+          <div className="mb-3">
+            <button
+              type="button"
+              className="btn forgot-btn"
+>>>>>>> origin/15-admin-orders-css
               onClick={() => {
                 navigate("/forgot-password");
               }}
@@ -327,6 +361,7 @@ const Login = () => {
               Forgot Password
             </button>
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,6 +393,8 @@ const Login = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 
           <button type="submit" className="btn btn-primary">
             LOGIN

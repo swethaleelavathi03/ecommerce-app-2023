@@ -26,12 +26,15 @@ const userSchema = new mongoose.Schema(
     },
     answer: {
 <<<<<<< HEAD
+<<<<<<< HEAD
       type: String,
       required: true,
     },
     answer: {
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
       type: String,
       required: true,
     },

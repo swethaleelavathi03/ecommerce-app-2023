@@ -21,6 +21,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -54,6 +55,9 @@ const Register = () => {
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/14-payment-gateway-integration
+=======
+  const [answer, setAnswer] = useState("");
+>>>>>>> origin/15-admin-orders-css
   const navigate = useNavigate();
 
   // form function
@@ -77,6 +81,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         answer,
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -110,6 +115,9 @@ const Register = () => {
 =======
         answer,
 >>>>>>> origin/14-payment-gateway-integration
+=======
+        answer,
+>>>>>>> origin/15-admin-orders-css
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -125,7 +133,11 @@ const Register = () => {
 
   return (
     <Layout title="Register - Ecommer App">
+<<<<<<< HEAD
       <div className="form-container ">
+=======
+      <div className="form-container" style={{ minHeight: "90vh" }}>
+>>>>>>> origin/15-admin-orders-css
         <form onSubmit={handleSubmit}>
           <h4 className="title">REGISTER FORM</h4>
           <div className="mb-3">
@@ -195,6 +207,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -216,6 +229,8 @@ const Register = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
           <div className="mb-3">
             <input
               type="text"
@@ -227,6 +242,7 @@ const Register = () => {
               required
             />
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +274,8 @@ const Register = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>

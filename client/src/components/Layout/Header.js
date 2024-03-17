@@ -5,6 +5,7 @@ import toast from "react-hot-toast";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const Header = () => {
   const [auth, setAuth] = useAuth();
@@ -37,6 +38,17 @@ const Header = () => {
   const [cart] = useCart();
   const categories = useCategory();
 >>>>>>> origin/14-payment-gateway-integration
+=======
+import SearchInput from "../Form/SearchInput";
+import useCategory from "../../hooks/useCategory";
+import { useCart } from "../../context/cart";
+import { Badge } from "antd";
+
+const Header = () => {
+  const [auth, setAuth] = useAuth();
+  const [cart] = useCart();
+  const categories = useCategory();
+>>>>>>> origin/15-admin-orders-css
   const handleLogout = () => {
     setAuth({
       ...auth,
@@ -48,7 +60,7 @@ const Header = () => {
   };
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -72,6 +84,7 @@ const Header = () => {
                   Home
                 </NavLink>
               </li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +123,8 @@ const Header = () => {
 
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
+=======
+>>>>>>> origin/15-admin-orders-css
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
@@ -137,6 +152,7 @@ const Header = () => {
                 </ul>
               </li>
 
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
               <li className="nav-item dropdown">
@@ -167,6 +183,8 @@ const Header = () => {
               </li>
 
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
               {!auth?.user ? (
                 <>
                   <li className="nav-item">
@@ -182,6 +200,7 @@ const Header = () => {
                 </>
               ) : (
                 <>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,12 +241,15 @@ const Header = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
                   <li className="nav-item dropdown">
                     <NavLink
                       className="nav-link dropdown-toggle"
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,11 +263,15 @@ const Header = () => {
 =======
                       style={{ border: "none" }}
 >>>>>>> origin/14-payment-gateway-integration
+=======
+                      style={{ border: "none" }}
+>>>>>>> origin/15-admin-orders-css
                     >
                       {auth?.user?.name}
                     </NavLink>
                     <ul className="dropdown-menu">
                       <li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,12 +302,15 @@ const Header = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
                         <NavLink
                           to={`/dashboard/${
                             auth?.user?.role === 1 ? "admin" : "user"
                           }`}
                           className="dropdown-item"
                         >
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,6 +339,8 @@ const Header = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
                           Dashboard
                         </NavLink>
                       </li>
@@ -323,6 +354,7 @@ const Header = () => {
                         </NavLink>
                       </li>
                     </ul>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,6 +386,8 @@ const Header = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
                   </li>
                 </>
               )}
@@ -361,7 +395,9 @@ const Header = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
                 <NavLink to="/cart" className="nav-link">
-                  Cart (0)
+                  <Badge count={cart?.length} showZero offset={[10, -5]}>
+                    Cart
+                  </Badge>
                 </NavLink>
 =======
 =======

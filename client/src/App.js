@@ -17,6 +17,7 @@ import Login from "./pages/Auth/Login";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import Dashboard from "./pages/user/Dashboard";
 import PrivateRoute from "./components/Routes/Private";
@@ -41,6 +42,8 @@ import ForgotPasssword from "./pages/Auth/ForgotPasssword";
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 import Dashboard from "./pages/user/Dashboard";
 import PrivateRoute from "./components/Routes/Private";
 import ForgotPasssword from "./pages/Auth/ForgotPasssword";
@@ -51,6 +54,7 @@ import CreateProduct from "./pages/Admin/CreateProduct";
 import Users from "./pages/Admin/Users";
 import Orders from "./pages/user/Orders";
 import Profile from "./pages/user/Profile";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,12 +86,15 @@ import UpdateProduct from "./pages/Admin/UpdateProduct";
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 import Products from "./pages/Admin/Products";
 import UpdateProduct from "./pages/Admin/UpdateProduct";
 import Search from "./pages/Search";
 import ProductDetails from "./pages/ProductDetails";
 import Categories from "./pages/Categories";
 import CategoryProduct from "./pages/CategoryProduct";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
@@ -97,11 +104,16 @@ import CartPage from "./pages/CartPage";
 =======
 import CartPage from "./pages/CartPage";
 >>>>>>> origin/14-payment-gateway-integration
+=======
+import CartPage from "./pages/CartPage";
+import AdminOrders from "./pages/Admin/AdminOrders";
+>>>>>>> origin/15-admin-orders-css
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,15 +155,20 @@ function App() {
 =======
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
         <Route path="/product/:slug" element={<ProductDetails />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/category/:slug" element={<CategoryProduct />} />
         <Route path="/search" element={<Search />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="user" element={<Dashboard />} />
           <Route path="user/orders" element={<Orders />} />
@@ -161,6 +178,7 @@ function App() {
           <Route path="admin" element={<AdminDashboard />} />
           <Route path="admin/create-category" element={<CreateCategory />} />
           <Route path="admin/create-product" element={<CreateProduct />} />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +236,15 @@ function App() {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+          <Route path="admin/product/:slug" element={<UpdateProduct />} />
+          <Route path="admin/products" element={<Products />} />
+          <Route path="admin/users" element={<Users />} />
+          <Route path="admin/orders" element={<AdminOrders />} />
+        </Route>
+        <Route path="/register" element={<Register />} />
+        <Route path="/forgot-password" element={<ForgotPasssword />} />
+>>>>>>> origin/15-admin-orders-css
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

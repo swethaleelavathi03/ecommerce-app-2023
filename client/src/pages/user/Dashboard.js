@@ -10,6 +10,7 @@ import Layout from "../../components/Layout/Layout";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Dashboard = () => {
   return (
     <Layout title={"Dashboard - Ecommerce App"}>
@@ -33,13 +34,19 @@ const Dashboard = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 import UserMenu from "../../components/Layout/UserMenu";
 import { useAuth } from "../../context/auth";
 const Dashboard = () => {
   const [auth] = useAuth();
   return (
     <Layout title={"Dashboard - Ecommerce App"}>
+<<<<<<< HEAD
       <div className="container-flui m-3 p-3">
+=======
+      <div className="container-flui m-3 p-3 dashboard">
+>>>>>>> origin/15-admin-orders-css
         <div className="row">
           <div className="col-md-3">
             <UserMenu />
@@ -53,6 +60,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +89,8 @@ const Dashboard = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
     </Layout>
   );
 };

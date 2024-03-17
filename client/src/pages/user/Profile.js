@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import UserMenu from "../../components/Layout/UserMenu";
 import Layout from "./../../components/Layout/Layout";
@@ -8,6 +9,8 @@ const Profile = () => {
 =======
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 import React, { useState, useEffect } from "react";
 import UserMenu from "../../components/Layout/UserMenu";
 import Layout from "./../../components/Layout/Layout";
@@ -60,16 +63,23 @@ const Profile = () => {
     }
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
   return (
     <Layout title={"Your Profile"}>
       <div className="container-fluid m-3 p-3">
+=======
+  return (
+    <Layout title={"Your Profile"}>
+      <div className="container-fluid m-3 p-3 dashboard">
+>>>>>>> origin/15-admin-orders-css
         <div className="row">
           <div className="col-md-3">
             <UserMenu />
           </div>
+<<<<<<< HEAD
           <div className="col-md-9">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +88,10 @@ const Profile = () => {
 =======
 >>>>>>> origin/14-payment-gateway-integration
             <div className="form-container ">
+=======
+          <div className="col-md-8">
+            <div className="form-container" style={{ marginTop: "-40px" }}>
+>>>>>>> origin/15-admin-orders-css
               <form onSubmit={handleSubmit}>
                 <h4 className="title">USER PROFILE</h4>
                 <div className="mb-3">
@@ -139,9 +153,12 @@ const Profile = () => {
               </form>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
           </div>
         </div>
       </div>

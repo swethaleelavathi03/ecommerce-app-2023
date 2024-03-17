@@ -12,6 +12,7 @@ import { AuthProvider } from "./context/auth";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -115,6 +116,14 @@ import "antd/dist/reset.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 >>>>>>> origin/14-payment-gateway-integration
+=======
+import { SearchProvider } from "./context/search";
+import { CartProvider } from "./context/cart";
+import "antd/dist/reset.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+>>>>>>> origin/15-admin-orders-css
   <AuthProvider>
     <SearchProvider>
       <CartProvider>
@@ -125,9 +134,12 @@ root.render(
     </SearchProvider>
   </AuthProvider>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 );
 
 // If you want to start measuring performance in your app, pass a function

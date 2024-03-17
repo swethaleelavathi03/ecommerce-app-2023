@@ -24,12 +24,17 @@ const Products = () => {
   }, []);
   return (
     <Layout>
+<<<<<<< HEAD
       <div className="row">
+=======
+      <div className="row dashboard">
+>>>>>>> origin/15-admin-orders-css
         <div className="col-md-3">
           <AdminMenu />
         </div>
         <div className="col-md-9 ">
           <h1 className="text-center">All Products List</h1>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +52,9 @@ const Products = () => {
 =======
           <div className="d-flex flex-wrap">
 >>>>>>> origin/14-payment-gateway-integration
+=======
+          <div className="d-flex flex-wrap">
+>>>>>>> origin/15-admin-orders-css
             {products?.map((p) => (
               <Link
                 key={p._id}

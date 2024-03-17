@@ -10,6 +10,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Spinner = () => {
   const [count, setCount] = useState(5);
 =======
@@ -52,6 +53,10 @@ const Spinner = ({ path = "login" }) => {
 const Spinner = ({ path = "login" }) => {
   const [count, setCount] = useState(3);
 >>>>>>> origin/14-payment-gateway-integration
+=======
+const Spinner = ({ path = "login" }) => {
+  const [count, setCount] = useState(3);
+>>>>>>> origin/15-admin-orders-css
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -60,6 +65,7 @@ const Spinner = ({ path = "login" }) => {
       setCount((prevValue) => --prevValue);
     }, 1000);
     count === 0 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,11 +100,14 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
       navigate(`/${path}`, {
         state: location.pathname,
       });
     return () => clearInterval(interval);
   }, [count, navigate, location, path]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +136,8 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
   return (
     <>
       <div

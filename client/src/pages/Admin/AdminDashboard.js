@@ -6,7 +6,11 @@ const AdminDashboard = () => {
   const [auth] = useAuth();
   return (
     <Layout>
+<<<<<<< HEAD
       <div className="container-fluid m-3 p-3">
+=======
+      <div className="container-fluid m-3 p-3 dashboard">
+>>>>>>> origin/15-admin-orders-css
         <div className="row">
           <div className="col-md-3">
             <AdminMenu />

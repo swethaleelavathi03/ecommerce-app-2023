@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -20,6 +21,8 @@ const CreateProduct = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 import React, { useState, useEffect } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -89,6 +92,7 @@ const CreateProduct = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
@@ -103,12 +107,18 @@ const CreateProduct = () => {
   return (
     <Layout title={"Dashboard - Create Product"}>
       <div className="container-fluid m-3 p-3">
+=======
+  return (
+    <Layout title={"Dashboard - Create Product"}>
+      <div className="container-fluid m-3 p-3 dashboard">
+>>>>>>> origin/15-admin-orders-css
         <div className="row">
           <div className="col-md-3">
             <AdminMenu />
           </div>
           <div className="col-md-9">
             <h1>Create Product</h1>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +136,8 @@ const CreateProduct = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
             <div className="m-1 w-75">
               <Select
                 bordered={false}
@@ -230,6 +242,7 @@ const CreateProduct = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
@@ -241,6 +254,8 @@ const CreateProduct = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
           </div>
         </div>
       </div>

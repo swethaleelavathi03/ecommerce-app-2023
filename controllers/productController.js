@@ -2,6 +2,7 @@ import productModel from "../models/productModel.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import categoryModel from "../models/categoryModel.js";
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
@@ -11,6 +12,8 @@ import categoryModel from "../models/categoryModel.js";
 import fs from "fs";
 import slugify from "slugify";
 =======
+=======
+>>>>>>> origin/15-admin-orders-css
 import categoryModel from "../models/categoryModel.js";
 import orderModel from "../models/orderModel.js";
 
@@ -28,7 +31,10 @@ var gateway = new braintree.BraintreeGateway({
   publicKey: process.env.BRAINTREE_PUBLIC_KEY,
   privateKey: process.env.BRAINTREE_PRIVATE_KEY,
 });
+<<<<<<< HEAD
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 
 export const createProductController = async (req, res) => {
   try {
@@ -208,6 +214,7 @@ export const updateProductController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
@@ -215,6 +222,8 @@ export const updateProductController = async (req, res) => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 
 // filters
 export const productFiltersController = async (req, res) => {
@@ -262,6 +271,7 @@ export const productListController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const perPage = 2;
 =======
     const perPage = 6;
@@ -272,6 +282,9 @@ export const productListController = async (req, res) => {
 =======
     const perPage = 6;
 >>>>>>> origin/14-payment-gateway-integration
+=======
+    const perPage = 6;
+>>>>>>> origin/15-admin-orders-css
     const page = req.params.page ? req.params.page : 1;
     const products = await productModel
       .find({})
@@ -295,12 +308,15 @@ export const productListController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 
 // search product
 export const searchProductController = async (req, res) => {
@@ -372,10 +388,13 @@ export const productCategoryController = async (req, res) => {
 };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
+=======
+>>>>>>> origin/15-admin-orders-css
 
 //payment gateway api
 //token
@@ -426,4 +445,7 @@ export const brainTreePaymentController = async (req, res) => {
     console.log(error);
   }
 };
+<<<<<<< HEAD
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css

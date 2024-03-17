@@ -16,6 +16,7 @@ export const createCategoryController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         success: true,
 =======
         success: false,
@@ -38,6 +39,9 @@ export const createCategoryController = async (req, res) => {
 =======
         success: false,
 >>>>>>> origin/14-payment-gateway-integration
+=======
+        success: false,
+>>>>>>> origin/15-admin-orders-css
         message: "Category Already Exisits",
       });
     }

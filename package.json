@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "client":"npm start --prefix ./client",
 =======
     "client": "npm start --prefix ./client",
@@ -44,12 +45,16 @@
 =======
     "client": "npm start --prefix ./client",
 >>>>>>> origin/14-payment-gateway-integration
+=======
+    "client": "npm start --prefix ./client",
+>>>>>>> origin/15-admin-orders-css
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "Techinfoyt",
   "license": "MIT",
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "bcrypt": "^5.1.0",
     "braintree": "^3.13.0",
     "colors": "^1.4.0",

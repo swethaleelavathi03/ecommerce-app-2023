@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -23,6 +24,8 @@ const CreateCategory = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
 import React, { useEffect, useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -51,7 +54,11 @@ const CreateCategory = () => {
       }
     } catch (error) {
       console.log(error);
+<<<<<<< HEAD
       toast.error("somthing went wrong in input form");
+=======
+      // toast.error("somthing went wrong in input form");
+>>>>>>> origin/15-admin-orders-css
     }
   };
 
@@ -59,6 +66,7 @@ const CreateCategory = () => {
   const getAllCategory = async () => {
     try {
       const { data } = await axios.get("/api/v1/category/get-category");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +99,10 @@ const CreateCategory = () => {
       if (data?.success) {
         setCategories(data?.category);
 >>>>>>> origin/14-payment-gateway-integration
+=======
+      if (data?.success) {
+        setCategories(data?.category);
+>>>>>>> origin/15-admin-orders-css
       }
     } catch (error) {
       console.log(error);
@@ -110,7 +122,11 @@ const CreateCategory = () => {
         `/api/v1/category/update-category/${selected._id}`,
         { name: updatedName }
       );
+<<<<<<< HEAD
       if (data.success) {
+=======
+      if (data?.success) {
+>>>>>>> origin/15-admin-orders-css
         toast.success(`${updatedName} is updated`);
         setSelected(null);
         setUpdatedName("");
@@ -120,7 +136,11 @@ const CreateCategory = () => {
         toast.error(data.message);
       }
     } catch (error) {
+<<<<<<< HEAD
       toast.error("Somtihing went wrong");
+=======
+      console.log(error);
+>>>>>>> origin/15-admin-orders-css
     }
   };
   //delete category
@@ -146,6 +166,7 @@ const CreateCategory = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
@@ -162,11 +183,17 @@ const CreateCategory = () => {
   return (
     <Layout title={"Dashboard - Create Category"}>
       <div className="container-fluid m-3 p-3">
+=======
+  return (
+    <Layout title={"Dashboard - Create Category"}>
+      <div className="container-fluid m-3 p-3 dashboard">
+>>>>>>> origin/15-admin-orders-css
         <div className="row">
           <div className="col-md-3">
             <AdminMenu />
           </div>
           <div className="col-md-9">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +215,8 @@ const CreateCategory = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
             <h1>Manage Category</h1>
             <div className="p-3 w-50">
               <CategoryForm
@@ -252,6 +281,7 @@ const CreateCategory = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
@@ -265,6 +295,8 @@ const CreateCategory = () => {
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 =======
 >>>>>>> origin/14-payment-gateway-integration
+=======
+>>>>>>> origin/15-admin-orders-css
           </div>
         </div>
       </div>
