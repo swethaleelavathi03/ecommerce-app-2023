@@ -12,6 +12,7 @@ export const createCategoryController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         success: true,
 =======
         success: false,
@@ -22,6 +23,9 @@ export const createCategoryController = async (req, res) => {
 =======
         success: false,
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+        success: false,
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
         message: "Category Already Exisits",
       });
     }

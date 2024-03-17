@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -11,6 +12,8 @@ const CreateCategory = () => {
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
 import React, { useEffect, useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -49,6 +52,7 @@ const CreateCategory = () => {
       const { data } = await axios.get("/api/v1/category/get-category");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (data.success) {
         setCategories(data.category);
 =======
@@ -59,6 +63,10 @@ const CreateCategory = () => {
       if (data?.success) {
         setCategories(data?.category);
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+      if (data?.success) {
+        setCategories(data?.category);
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
       }
     } catch (error) {
       console.log(error);
@@ -110,11 +118,14 @@ const CreateCategory = () => {
   };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
   return (
     <Layout title={"Dashboard - Create Category"}>
       <div className="container-fluid m-3 p-3">
@@ -126,12 +137,15 @@ const CreateCategory = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <h1>Create Category</h1>
 =======
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
             <h1>Manage Category</h1>
             <div className="p-3 w-50">
               <CategoryForm
@@ -192,11 +206,14 @@ const CreateCategory = () => {
             </Modal>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
           </div>
         </div>
       </div>

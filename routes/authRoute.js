@@ -29,6 +29,7 @@ router.get("/test", requireSignIn, isAdmin, testController);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //protected route auth
 router.get("/user-auth", requireSignIn, (req, res) => {
   res.status(200).send({ ok: true });
@@ -44,6 +45,8 @@ router.get("/user-auth", requireSignIn, (req, res) => {
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
 //protected User route auth
 router.get("/user-auth", requireSignIn, (req, res) => {
   res.status(200).send({ ok: true });
@@ -52,6 +55,7 @@ router.get("/user-auth", requireSignIn, (req, res) => {
 router.get("/admin-auth", requireSignIn, isAdmin, (req, res) => {
   res.status(200).send({ ok: true });
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,5 +72,7 @@ router.get("/admin-auth", requireSignIn, isAdmin, (req, res) => {
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
 
 export default router;

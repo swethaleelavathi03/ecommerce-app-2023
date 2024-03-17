@@ -8,6 +8,7 @@ import { AuthProvider } from "./context/auth";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -46,11 +47,18 @@ import "antd/dist/reset.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+import "antd/dist/reset.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
   <AuthProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
   </AuthProvider>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +81,8 @@ root.render(
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
 );
 
 // If you want to start measuring performance in your app, pass a function

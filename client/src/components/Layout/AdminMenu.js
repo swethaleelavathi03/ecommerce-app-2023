@@ -20,14 +20,20 @@ const AdminMenu = () => {
           </NavLink>
           <NavLink
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
             to="/dashboard/admin/products"
             className="list-group-item list-group-item-action"
           >
             Products
           </NavLink>
           <NavLink
+<<<<<<< HEAD
 >>>>>>> origin/10-Update-Delete-Product-vid-20
+=======
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
             to="/dashboard/admin/users"
             className="list-group-item list-group-item-action"
           >

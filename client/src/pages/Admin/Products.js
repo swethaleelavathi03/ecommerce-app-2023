@@ -30,7 +30,11 @@ const Products = () => {
         </div>
         <div className="col-md-9 ">
           <h1 className="text-center">All Products List</h1>
+<<<<<<< HEAD
           <div className="d-flex">
+=======
+          <div className="d-flex flex-wrap">
+>>>>>>> origin/11-filter-cat-price-paginate-vid-21
             {products?.map((p) => (
               <Link
                 key={p._id}
