@@ -11,6 +11,7 @@ root.render(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <BrowserRouter>
     <App />
   </BrowserRouter>
@@ -19,6 +20,8 @@ root.render(
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
+=======
+>>>>>>> origin/06-category-API-vid-16
   <AuthProvider>
     <BrowserRouter>
       <App />
@@ -26,11 +29,14 @@ root.render(
   </AuthProvider>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/02-Context-And-Logout-vid-12
 =======
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
+=======
+>>>>>>> origin/06-category-API-vid-16
 );
 
 // If you want to start measuring performance in your app, pass a function

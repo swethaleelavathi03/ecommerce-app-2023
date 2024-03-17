@@ -22,6 +22,7 @@ export const registerController = async (req, res) => {
       return res.send({ message: "Address is Required" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     }
     if (!answer) {
@@ -32,6 +33,11 @@ export const registerController = async (req, res) => {
     if (!answer) {
       return res.send({ message: "Answer is Required" });
 >>>>>>> origin/04-admin-user-panel-vid-15
+=======
+    }
+    if (!answer) {
+      return res.send({ message: "Answer is Required" });
+>>>>>>> origin/06-category-API-vid-16
     }
     //check user
     const exisitingUser = await userModel.findOne({ email });

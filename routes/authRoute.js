@@ -24,11 +24,14 @@ router.post("/forgot-password", forgotPasswordController);
 router.get("/test", requireSignIn, isAdmin, testController);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //protected route auth
 router.get("/user-auth", requireSignIn, (req, res) => {
   res.status(200).send({ ok: true });
 });
 =======
+=======
+>>>>>>> origin/06-category-API-vid-16
 //protected User route auth
 router.get("/user-auth", requireSignIn, (req, res) => {
   res.status(200).send({ ok: true });
@@ -37,6 +40,9 @@ router.get("/user-auth", requireSignIn, (req, res) => {
 router.get("/admin-auth", requireSignIn, isAdmin, (req, res) => {
   res.status(200).send({ ok: true });
 });
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
+=======
+>>>>>>> origin/06-category-API-vid-16
 
 export default router;

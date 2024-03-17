@@ -1,11 +1,14 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Dashboard = () => {
   return (
     <Layout title={"Dashboard - Ecommerce App"}>
       <h1>Dashborad Page</h1>
 =======
+=======
+>>>>>>> origin/06-category-API-vid-16
 import UserMenu from "../../components/Layout/UserMenu";
 import { useAuth } from "../../context/auth";
 const Dashboard = () => {
@@ -26,7 +29,10 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
+=======
+>>>>>>> origin/06-category-API-vid-16
     </Layout>
   );
 };
