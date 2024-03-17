@@ -8,6 +8,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Spinner = () => {
   const [count, setCount] = useState(5);
 =======
@@ -42,6 +43,10 @@ const Spinner = ({ path = "login" }) => {
 const Spinner = ({ path = "login" }) => {
   const [count, setCount] = useState(3);
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+const Spinner = ({ path = "login" }) => {
+  const [count, setCount] = useState(3);
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -50,6 +55,7 @@ const Spinner = ({ path = "login" }) => {
       setCount((prevValue) => --prevValue);
     }, 1000);
     count === 0 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,11 +84,14 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
       navigate(`/${path}`, {
         state: location.pathname,
       });
     return () => clearInterval(interval);
   }, [count, navigate, location, path]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +114,8 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
   return (
     <>
       <div

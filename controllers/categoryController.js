@@ -14,6 +14,7 @@ export const createCategoryController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         success: true,
 =======
         success: false,
@@ -30,6 +31,9 @@ export const createCategoryController = async (req, res) => {
 =======
         success: false,
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+        success: false,
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
         message: "Category Already Exisits",
       });
     }

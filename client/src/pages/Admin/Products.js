@@ -32,6 +32,7 @@ const Products = () => {
           <h1 className="text-center">All Products List</h1>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <div className="d-flex">
 =======
           <div className="d-flex flex-wrap">
@@ -39,6 +40,9 @@ const Products = () => {
 =======
           <div className="d-flex flex-wrap">
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+          <div className="d-flex flex-wrap">
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
             {products?.map((p) => (
               <Link
                 key={p._id}

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "antd": "^5.1.7",
 >>>>>>> origin/08-React-Category-CRUD-vid-18
@@ -27,6 +28,9 @@
 =======
     "antd": "^5.1.7",
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+    "antd": "^5.1.7",
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
     "axios": "^1.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

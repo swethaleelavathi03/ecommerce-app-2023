@@ -6,6 +6,7 @@ import {
   getSingleProductController,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   productCountController,
   productFiltersController,
@@ -13,6 +14,8 @@ import {
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
   productPhotoController,
 =======
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
   productCategoryController,
   productCountController,
   productFiltersController,
@@ -20,7 +23,10 @@ import {
   productPhotoController,
   realtedProductController,
   searchProductController,
+<<<<<<< HEAD
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
   updateProductController,
 } from "../controllers/productController.js";
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
@@ -58,6 +64,7 @@ router.get("/product-photo/:pid", productPhotoController);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 router.delete("/product/:pid", deleteProductController);
 =======
 router.delete("/delete-product/:pid", deleteProductController);
@@ -65,6 +72,8 @@ router.delete("/delete-product/:pid", deleteProductController);
 =======
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 router.delete("/delete-product/:pid", deleteProductController);
 
 //filter product
@@ -76,8 +85,11 @@ router.get("/product-count", productCountController);
 //product per page
 router.get("/product-list/:page", productListController);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 
 //search product
 router.get("/search/:keyword", searchProductController);
@@ -87,6 +99,9 @@ router.get("/related-product/:pid/:cid", realtedProductController);
 
 //category wise product
 router.get("/product-category/:slug", productCategoryController);
+<<<<<<< HEAD
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 
 export default router;

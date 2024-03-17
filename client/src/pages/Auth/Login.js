@@ -10,6 +10,7 @@ import axios from "axios";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
@@ -64,11 +65,17 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+import { useNavigate, useLocation } from "react-router-dom";
+import toast from "react-hot-toast";
+import "../../styles/AuthStyles.css";
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 import { useAuth } from "../../context/auth";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +133,11 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+
+  const navigate = useNavigate();
+  const location = useLocation();
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 
   // form function
   const handleSubmit = async (e) => {
@@ -137,6 +149,7 @@ const Login = () => {
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,12 +179,15 @@ const Login = () => {
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
         setAuth({
           ...auth,
           user: res.data.user,
           token: res.data.token,
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +226,9 @@ const Login = () => {
 =======
         navigate(location.state || "/");
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+        navigate(location.state || "/");
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
       } else {
         toast.error(res.data.message);
       }
@@ -255,6 +274,7 @@ const Login = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -272,6 +292,8 @@ const Login = () => {
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
           <div className="mb-3">
             <button
               type="button"
@@ -283,6 +305,7 @@ const Login = () => {
               Forgot Password
             </button>
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +331,8 @@ const Login = () => {
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
+=======
+>>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 
           <button type="submit" className="btn btn-primary">
             LOGIN
