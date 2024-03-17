@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Spinner = () => {
   const [count, setCount] = useState(5);
 =======
@@ -17,6 +18,10 @@ const Spinner = ({ path = "login" }) => {
 const Spinner = ({ path = "login" }) => {
   const [count, setCount] = useState(3);
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+const Spinner = ({ path = "login" }) => {
+  const [count, setCount] = useState(3);
+>>>>>>> origin/08-React-Category-CRUD-vid-18
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -25,6 +30,7 @@ const Spinner = ({ path = "login" }) => {
       setCount((prevValue) => --prevValue);
     }, 1000);
     count === 0 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,6 +44,8 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/06-category-API-vid-16
 =======
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+>>>>>>> origin/08-React-Category-CRUD-vid-18
       navigate(`/${path}`, {
         state: location.pathname,
       });
@@ -45,11 +53,14 @@ const Spinner = ({ path = "login" }) => {
   }, [count, navigate, location, path]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
 =======
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+>>>>>>> origin/08-React-Category-CRUD-vid-18
   return (
     <>
       <div

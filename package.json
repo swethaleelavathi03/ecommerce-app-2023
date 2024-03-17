@@ -9,6 +9,7 @@
     "server": "nodemon server.js",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "client":"npm start --prefix ./client",
 =======
     "client": "npm start --prefix ./client",
@@ -16,6 +17,9 @@
 =======
     "client": "npm start --prefix ./client",
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+    "client": "npm start --prefix ./client",
+>>>>>>> origin/08-React-Category-CRUD-vid-18
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],

@@ -10,6 +10,7 @@ import Login from "./pages/Auth/Login";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import Dashboard from "./pages/user/Dashboard";
 import PrivateRoute from "./components/Routes/Private";
@@ -20,6 +21,8 @@ import ForgotPasssword from "./pages/Auth/ForgotPasssword";
 >>>>>>> origin/06-category-API-vid-16
 =======
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+>>>>>>> origin/08-React-Category-CRUD-vid-18
 import Dashboard from "./pages/user/Dashboard";
 import PrivateRoute from "./components/Routes/Private";
 import ForgotPasssword from "./pages/Auth/ForgotPasssword";
@@ -32,16 +35,20 @@ import Orders from "./pages/user/Orders";
 import Profile from "./pages/user/Profile";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
 =======
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+>>>>>>> origin/08-React-Category-CRUD-vid-18
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +66,8 @@ function App() {
 >>>>>>> origin/06-category-API-vid-16
 =======
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+>>>>>>> origin/08-React-Category-CRUD-vid-18
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="user" element={<Dashboard />} />
           <Route path="user/orders" element={<Orders />} />
@@ -74,11 +83,14 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPasssword />} />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
 =======
 >>>>>>> origin/07-products-api-crud-vid-17
+=======
+>>>>>>> origin/08-React-Category-CRUD-vid-18
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

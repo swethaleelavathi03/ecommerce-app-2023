@@ -9,7 +9,11 @@ export const createCategoryController = async (req, res) => {
     const existingCategory = await categoryModel.findOne({ name });
     if (existingCategory) {
       return res.status(200).send({
+<<<<<<< HEAD
         success: true,
+=======
+        success: false,
+>>>>>>> origin/08-React-Category-CRUD-vid-18
         message: "Category Already Exisits",
       });
     }
