@@ -18,6 +18,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -42,6 +43,9 @@ const Register = () => {
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+  const [answer, setAnswer] = useState("");
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
   const navigate = useNavigate();
 
   // form function
@@ -62,6 +66,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         answer,
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -86,6 +91,9 @@ const Register = () => {
 =======
         answer,
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+        answer,
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -168,6 +176,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -183,6 +192,8 @@ const Register = () => {
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
           <div className="mb-3">
             <input
               type="text"
@@ -194,6 +205,7 @@ const Register = () => {
               required
             />
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +228,8 @@ const Register = () => {
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>

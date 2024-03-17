@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -11,6 +12,8 @@ const CreateProduct = () => {
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 import React, { useState, useEffect } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -77,11 +80,14 @@ const CreateProduct = () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
   return (
     <Layout title={"Dashboard - Create Product"}>
       <div className="container-fluid m-3 p-3">
@@ -94,11 +100,14 @@ const CreateProduct = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
             <div className="m-1 w-75">
               <Select
                 bordered={false}
@@ -200,11 +209,14 @@ const CreateProduct = () => {
             </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
           </div>
         </div>
       </div>

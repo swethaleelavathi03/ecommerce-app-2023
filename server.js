@@ -10,6 +10,7 @@ import authRoutes from "./routes/authRoute.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import categoryRoutes from "./routes/categoryRoutes.js";
 >>>>>>> origin/06-category-API-vid-16
@@ -33,6 +34,10 @@ import productRoutes from "./routes/productRoutes.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+import categoryRoutes from "./routes/categoryRoutes.js";
+import productRoutes from "./routes/productRoutes.js";
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 import cors from "cors";
 
 //configure env
@@ -57,6 +62,7 @@ app.use("/api/v1/category", categoryRoutes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 app.use("/api/v1/product", productRoutes);
 >>>>>>> origin/07-products-api-crud-vid-17
@@ -72,6 +78,9 @@ app.use("/api/v1/product", productRoutes);
 =======
 app.use("/api/v1/product", productRoutes);
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+app.use("/api/v1/product", productRoutes);
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 
 //rest api
 app.get("/", (req, res) => {

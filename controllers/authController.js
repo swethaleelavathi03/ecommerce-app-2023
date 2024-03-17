@@ -28,6 +28,7 @@ export const registerController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     }
     if (!answer) {
@@ -68,6 +69,11 @@ export const registerController = async (req, res) => {
     if (!answer) {
       return res.send({ message: "Answer is Required" });
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+    }
+    if (!answer) {
+      return res.send({ message: "Answer is Required" });
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
     }
     //check user
     const exisitingUser = await userModel.findOne({ email });

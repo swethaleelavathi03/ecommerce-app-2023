@@ -9,6 +9,7 @@ import { AuthProvider } from "./context/auth";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -83,6 +84,20 @@ root.render(
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+import { SearchProvider } from "./context/search";
+import "antd/dist/reset.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <AuthProvider>
+    <SearchProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </SearchProvider>
+  </AuthProvider>
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 );
 
 // If you want to start measuring performance in your app, pass a function

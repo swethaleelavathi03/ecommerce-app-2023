@@ -7,6 +7,7 @@ import Layout from "../../components/Layout/Layout";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Dashboard = () => {
   return (
     <Layout title={"Dashboard - Ecommerce App"}>
@@ -24,6 +25,8 @@ const Dashboard = () => {
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 import UserMenu from "../../components/Layout/UserMenu";
 import { useAuth } from "../../context/auth";
 const Dashboard = () => {
@@ -50,6 +53,7 @@ const Dashboard = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
@@ -63,6 +67,8 @@ const Dashboard = () => {
 >>>>>>> origin/10-Update-Delete-Product-vid-20
 =======
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
+=======
+>>>>>>> origin/12-search-cat-similar-filter-vid-22-23
     </Layout>
   );
 };
