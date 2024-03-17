@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import axios from "axios";
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
@@ -10,14 +11,25 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 =======
+=======
+import { useNavigate, useLocation } from "react-router-dom";
+import toast from "react-hot-toast";
+import "../../styles/AuthStyles.css";
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 import { useAuth } from "../../context/auth";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
+<<<<<<< HEAD
 >>>>>>> origin/02-Context-And-Logout-vid-12
 
   const navigate = useNavigate();
+=======
+
+  const navigate = useNavigate();
+  const location = useLocation();
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 
   // form function
   const handleSubmit = async (e) => {
@@ -30,15 +42,22 @@ const Login = () => {
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
         setAuth({
           ...auth,
           user: res.data.user,
           token: res.data.token,
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
+<<<<<<< HEAD
 >>>>>>> origin/02-Context-And-Logout-vid-12
         navigate("/");
+=======
+        navigate(location.state || "/");
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
       } else {
         toast.error(res.data.message);
       }
@@ -75,6 +94,20 @@ const Login = () => {
               required
             />
           </div>
+<<<<<<< HEAD
+=======
+          <div className="mb-3">
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => {
+                navigate("/forgot-password");
+              }}
+            >
+              Forgot Password
+            </button>
+          </div>
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 
           <button type="submit" className="btn btn-primary">
             LOGIN

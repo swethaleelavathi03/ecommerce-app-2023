@@ -9,16 +9,22 @@ import { AuthProvider } from "./context/auth";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 <<<<<<< HEAD
+<<<<<<< HEAD
   <BrowserRouter>
     <App />
   </BrowserRouter>
 =======
+=======
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
   <AuthProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
   </AuthProvider>
+<<<<<<< HEAD
 >>>>>>> origin/02-Context-And-Logout-vid-12
+=======
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -10,6 +10,10 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
+<<<<<<< HEAD
+=======
+  const [answer, setAnswer] = useState("");
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
   const navigate = useNavigate();
 
   // form function
@@ -22,6 +26,10 @@ const Register = () => {
         password,
         phone,
         address,
+<<<<<<< HEAD
+=======
+        answer,
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -96,6 +104,20 @@ const Register = () => {
               required
             />
           </div>
+<<<<<<< HEAD
+=======
+          <div className="mb-3">
+            <input
+              type="text"
+              value={answer}
+              onChange={(e) => setAnswer(e.target.value)}
+              className="form-control"
+              id="exampleInputEmail1"
+              placeholder="What is Your Favorite sports"
+              required
+            />
+          </div>
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>

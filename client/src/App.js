@@ -6,12 +6,26 @@ import Policy from "./pages/Policy";
 import Pagenotfound from "./pages/Pagenotfound";
 import Register from "./pages/Auth/Register";
 import Login from "./pages/Auth/Login";
+<<<<<<< HEAD
+=======
+import Dashboard from "./pages/user/Dashboard";
+import PrivateRoute from "./components/Routes/Private";
+import ForgotPasssword from "./pages/Auth/ForgotPasssword";
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+<<<<<<< HEAD
         <Route path="/register" element={<Register />} />
+=======
+        <Route path="/dashboard" element={<PrivateRoute />}>
+          <Route path="" element={<Dashboard />} />
+        </Route>
+        <Route path="/register" element={<Register />} />
+        <Route path="/forgot-password" element={<ForgotPasssword />} />
+>>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
