@@ -9,6 +9,7 @@ import { useState, useEffect, useContext, createContext } from "react";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const AuthContext = createContext();
 
@@ -62,6 +63,11 @@ import axios from "axios";
 
 const AuthContext = createContext();
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+import axios from "axios";
+
+const AuthContext = createContext();
+>>>>>>> origin/14-payment-gateway-integration
 const AuthProvider = ({ children }) => {
   const [auth, setAuth] = useState({
     user: null,
@@ -77,6 +83,7 @@ const AuthProvider = ({ children }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -96,10 +103,13 @@ const AuthProvider = ({ children }) => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
 
   //default axios
   axios.defaults.headers.common["Authorization"] = auth?.token;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +138,8 @@ const AuthProvider = ({ children }) => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
   useEffect(() => {
     const data = localStorage.getItem("auth");
     if (data) {
@@ -138,6 +150,7 @@ const AuthProvider = ({ children }) => {
         token: parseData.token,
       });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +202,10 @@ const AuthProvider = ({ children }) => {
     //eslint-disable-next-line
   }, []);
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+    //eslint-disable-next-line
+  }, []);
+>>>>>>> origin/14-payment-gateway-integration
   return (
     <AuthContext.Provider value={[auth, setAuth]}>
       {children}

@@ -1,6 +1,7 @@
 import productModel from "../models/productModel.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import categoryModel from "../models/categoryModel.js";
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
@@ -9,6 +10,25 @@ import categoryModel from "../models/categoryModel.js";
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
 import fs from "fs";
 import slugify from "slugify";
+=======
+import categoryModel from "../models/categoryModel.js";
+import orderModel from "../models/orderModel.js";
+
+import fs from "fs";
+import slugify from "slugify";
+import braintree from "braintree";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+//payment gateway
+var gateway = new braintree.BraintreeGateway({
+  environment: braintree.Environment.Sandbox,
+  merchantId: process.env.BRAINTREE_MERCHANT_ID,
+  publicKey: process.env.BRAINTREE_PUBLIC_KEY,
+  privateKey: process.env.BRAINTREE_PRIVATE_KEY,
+});
+>>>>>>> origin/14-payment-gateway-integration
 
 export const createProductController = async (req, res) => {
   try {
@@ -187,11 +207,14 @@ export const updateProductController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
 
 // filters
 export const productFiltersController = async (req, res) => {
@@ -238,6 +261,7 @@ export const productListController = async (req, res) => {
   try {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const perPage = 2;
 =======
     const perPage = 6;
@@ -245,6 +269,9 @@ export const productListController = async (req, res) => {
 =======
     const perPage = 6;
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+    const perPage = 6;
+>>>>>>> origin/14-payment-gateway-integration
     const page = req.params.page ? req.params.page : 1;
     const products = await productModel
       .find({})
@@ -267,10 +294,13 @@ export const productListController = async (req, res) => {
 };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/11-filter-cat-price-paginate-vid-21
 =======
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
 
 // search product
 export const searchProductController = async (req, res) => {
@@ -341,6 +371,59 @@ export const productCategoryController = async (req, res) => {
   }
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+
+//payment gateway api
+//token
+export const braintreeTokenController = async (req, res) => {
+  try {
+    gateway.clientToken.generate({}, function (err, response) {
+      if (err) {
+        res.status(500).send(err);
+      } else {
+        res.send(response);
+      }
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+//payment
+export const brainTreePaymentController = async (req, res) => {
+  try {
+    const { nonce, cart } = req.body;
+    let total = 0;
+    cart.map((i) => {
+      total += i.price;
+    });
+    let newTransaction = gateway.transaction.sale(
+      {
+        amount: total,
+        paymentMethodNonce: nonce,
+        options: {
+          submitForSettlement: true,
+        },
+      },
+      function (error, result) {
+        if (result) {
+          const order = new orderModel({
+            products: cart,
+            payment: result,
+            buyer: req.user._id,
+          }).save();
+          res.json({ ok: true });
+        } else {
+          res.status(500).send(error);
+        }
+      }
+    );
+  } catch (error) {
+    console.log(error);
+  }
+};
+>>>>>>> origin/14-payment-gateway-integration

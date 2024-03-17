@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -17,6 +18,8 @@ const CreateProduct = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
 import React, { useState, useEffect } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -85,6 +88,7 @@ const CreateProduct = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
@@ -94,6 +98,8 @@ const CreateProduct = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
   return (
     <Layout title={"Dashboard - Create Product"}>
       <div className="container-fluid m-3 p-3">
@@ -108,6 +114,7 @@ const CreateProduct = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
@@ -117,6 +124,8 @@ const CreateProduct = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
             <div className="m-1 w-75">
               <Select
                 bordered={false}
@@ -220,6 +229,7 @@ const CreateProduct = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/09-Create-Products-Vid-19
 =======
 >>>>>>> origin/10-Update-Delete-Product-vid-20
@@ -229,6 +239,8 @@ const CreateProduct = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
           </div>
         </div>
       </div>

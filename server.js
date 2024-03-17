@@ -12,6 +12,7 @@ import authRoutes from "./routes/authRoute.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import categoryRoutes from "./routes/categoryRoutes.js";
 >>>>>>> origin/06-category-API-vid-16
@@ -43,6 +44,10 @@ import productRoutes from "./routes/productRoutes.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+import categoryRoutes from "./routes/categoryRoutes.js";
+import productRoutes from "./routes/productRoutes.js";
+>>>>>>> origin/14-payment-gateway-integration
 import cors from "cors";
 
 //configure env
@@ -62,6 +67,7 @@ app.use(morgan("dev"));
 //routes
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +96,9 @@ app.use("/api/v1/product", productRoutes);
 =======
 app.use("/api/v1/product", productRoutes);
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+app.use("/api/v1/product", productRoutes);
+>>>>>>> origin/14-payment-gateway-integration
 
 //rest api
 app.get("/", (req, res) => {

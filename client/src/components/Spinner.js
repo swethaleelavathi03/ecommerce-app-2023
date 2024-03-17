@@ -9,6 +9,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Spinner = () => {
   const [count, setCount] = useState(5);
 =======
@@ -47,6 +48,10 @@ const Spinner = ({ path = "login" }) => {
 const Spinner = ({ path = "login" }) => {
   const [count, setCount] = useState(3);
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+const Spinner = ({ path = "login" }) => {
+  const [count, setCount] = useState(3);
+>>>>>>> origin/14-payment-gateway-integration
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -55,6 +60,7 @@ const Spinner = ({ path = "login" }) => {
       setCount((prevValue) => --prevValue);
     }, 1000);
     count === 0 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,11 +92,14 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
       navigate(`/${path}`, {
         state: location.pathname,
       });
     return () => clearInterval(interval);
   }, [count, navigate, location, path]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +125,8 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
   return (
     <>
       <div

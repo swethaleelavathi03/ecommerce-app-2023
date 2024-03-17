@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -20,6 +21,8 @@ const CreateCategory = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
 import React, { useEffect, useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -61,6 +64,7 @@ const CreateCategory = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (data.success) {
         setCategories(data.category);
 =======
@@ -83,6 +87,10 @@ const CreateCategory = () => {
       if (data?.success) {
         setCategories(data?.category);
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+      if (data?.success) {
+        setCategories(data?.category);
+>>>>>>> origin/14-payment-gateway-integration
       }
     } catch (error) {
       console.log(error);
@@ -137,6 +145,7 @@ const CreateCategory = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
@@ -148,6 +157,8 @@ const CreateCategory = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
   return (
     <Layout title={"Dashboard - Create Category"}>
       <div className="container-fluid m-3 p-3">
@@ -156,6 +167,7 @@ const CreateCategory = () => {
             <AdminMenu />
           </div>
           <div className="col-md-9">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +186,8 @@ const CreateCategory = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
             <h1>Manage Category</h1>
             <div className="p-3 w-50">
               <CategoryForm
@@ -237,6 +251,7 @@ const CreateCategory = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
@@ -248,6 +263,8 @@ const CreateCategory = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
           </div>
         </div>
       </div>

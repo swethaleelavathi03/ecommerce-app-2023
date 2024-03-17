@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import UserMenu from "../../components/Layout/UserMenu";
 import Layout from "./../../components/Layout/Layout";
 
 const Profile = () => {
 =======
+=======
+>>>>>>> origin/14-payment-gateway-integration
 import React, { useState, useEffect } from "react";
 import UserMenu from "../../components/Layout/UserMenu";
 import Layout from "./../../components/Layout/Layout";
@@ -56,7 +59,10 @@ const Profile = () => {
       toast.error("Something went wrong");
     }
   };
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
   return (
     <Layout title={"Your Profile"}>
       <div className="container-fluid m-3 p-3">
@@ -66,8 +72,11 @@ const Profile = () => {
           </div>
           <div className="col-md-9">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <h1>Your Profile</h1>
 =======
+=======
+>>>>>>> origin/14-payment-gateway-integration
             <div className="form-container ">
               <form onSubmit={handleSubmit}>
                 <h4 className="title">USER PROFILE</h4>
@@ -129,7 +138,10 @@ const Profile = () => {
                 </button>
               </form>
             </div>
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
           </div>
         </div>
       </div>

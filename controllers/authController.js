@@ -30,6 +30,7 @@ export const registerController = async (req, res) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     }
     if (!answer) {
@@ -80,6 +81,11 @@ export const registerController = async (req, res) => {
     if (!answer) {
       return res.send({ message: "Answer is Required" });
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+    }
+    if (!answer) {
+      return res.send({ message: "Answer is Required" });
+>>>>>>> origin/14-payment-gateway-integration
     }
     //check user
     const exisitingUser = await userModel.findOne({ email });
@@ -156,10 +162,14 @@ export const loginController = async (req, res) => {
         email: user.email,
         phone: user.phone,
 <<<<<<< HEAD
+<<<<<<< HEAD
         adddress: user.address,
 =======
         address: user.address,
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+        address: user.address,
+>>>>>>> origin/14-payment-gateway-integration
         role: user.role,
       },
       token,

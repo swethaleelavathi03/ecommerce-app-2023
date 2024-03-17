@@ -4,6 +4,7 @@ import { useAuth } from "../../context/auth";
 import toast from "react-hot-toast";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const Header = () => {
   const [auth, setAuth] = useAuth();
@@ -25,6 +26,17 @@ const Header = () => {
   const [cart] = useCart();
   const categories = useCategory();
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+import SearchInput from "../Form/SearchInput";
+import useCategory from "../../hooks/useCategory";
+import { useCart } from "../../context/cart";
+import { Badge } from "antd";
+
+const Header = () => {
+  const [auth, setAuth] = useAuth();
+  const [cart] = useCart();
+  const categories = useCategory();
+>>>>>>> origin/14-payment-gateway-integration
   const handleLogout = () => {
     setAuth({
       ...auth,
@@ -60,6 +72,7 @@ const Header = () => {
                   Home
                 </NavLink>
               </li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
               <li className="nav-item">
@@ -125,6 +138,35 @@ const Header = () => {
               </li>
 
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to={"/categories"}
+                  data-bs-toggle="dropdown"
+                >
+                  Categories
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link className="dropdown-item" to={"/categories"}>
+                      All Categories
+                    </Link>
+                  </li>
+                  {categories?.map((c) => (
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to={`/category/${c.slug}`}
+                      >
+                        {c.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+
+>>>>>>> origin/14-payment-gateway-integration
               {!auth?.user ? (
                 <>
                   <li className="nav-item">
@@ -140,6 +182,7 @@ const Header = () => {
                 </>
               ) : (
                 <>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,12 +220,15 @@ const Header = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
                   <li className="nav-item dropdown">
                     <NavLink
                       className="nav-link dropdown-toggle"
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                       aria-expanded="false"
@@ -192,11 +238,15 @@ const Header = () => {
 =======
                       style={{ border: "none" }}
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+                      style={{ border: "none" }}
+>>>>>>> origin/14-payment-gateway-integration
                     >
                       {auth?.user?.name}
                     </NavLink>
                     <ul className="dropdown-menu">
                       <li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,12 +274,15 @@ const Header = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
                         <NavLink
                           to={`/dashboard/${
                             auth?.user?.role === 1 ? "admin" : "user"
                           }`}
                           className="dropdown-item"
                         >
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +308,8 @@ const Header = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
                           Dashboard
                         </NavLink>
                       </li>
@@ -268,6 +323,7 @@ const Header = () => {
                         </NavLink>
                       </li>
                     </ul>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,21 +352,29 @@ const Header = () => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
                   </li>
                 </>
               )}
               <li className="nav-item">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <NavLink to="/cart" className="nav-link">
                   Cart (0)
                 </NavLink>
 =======
+=======
+>>>>>>> origin/14-payment-gateway-integration
                 <Badge count={cart?.length} showZero>
                   <NavLink to="/cart" className="nav-link">
                     Cart
                   </NavLink>
                 </Badge>
+<<<<<<< HEAD
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
               </li>
             </ul>
           </div>

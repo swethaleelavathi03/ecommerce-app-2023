@@ -33,6 +33,7 @@ const Products = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <div className="d-flex">
 =======
           <div className="d-flex flex-wrap">
@@ -43,6 +44,9 @@ const Products = () => {
 =======
           <div className="d-flex flex-wrap">
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+          <div className="d-flex flex-wrap">
+>>>>>>> origin/14-payment-gateway-integration
             {products?.map((p) => (
               <Link
                 key={p._id}

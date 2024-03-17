@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "client":"npm start --prefix ./client",
 =======
     "client": "npm start --prefix ./client",
@@ -40,6 +41,9 @@
 =======
     "client": "npm start --prefix ./client",
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+    "client": "npm start --prefix ./client",
+>>>>>>> origin/14-payment-gateway-integration
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
@@ -47,6 +51,7 @@
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "braintree": "^3.13.0",
     "colors": "^1.4.0",
     "concurrently": "^7.6.0",
     "cors": "^2.8.5",

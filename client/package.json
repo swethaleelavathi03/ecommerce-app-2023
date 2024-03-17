@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "antd": "^5.1.7",
 >>>>>>> origin/08-React-Category-CRUD-vid-18
@@ -32,6 +33,11 @@
     "antd": "^5.1.7",
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
     "axios": "^1.2.5",
+=======
+    "antd": "^5.1.7",
+    "axios": "^1.2.5",
+    "braintree-web-drop-in-react": "^1.2.1",
+>>>>>>> origin/14-payment-gateway-integration
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",

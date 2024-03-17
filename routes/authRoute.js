@@ -5,9 +5,13 @@ import {
   testController,
   forgotPasswordController,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   updateProfileController,
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+  updateProfileController,
+>>>>>>> origin/14-payment-gateway-integration
 } from "../controllers/authController.js";
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 
@@ -27,6 +31,7 @@ router.post("/forgot-password", forgotPasswordController);
 //test routes
 router.get("/test", requireSignIn, isAdmin, testController);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +62,8 @@ router.get("/user-auth", requireSignIn, (req, res) => {
 >>>>>>> origin/12-search-cat-similar-filter-vid-22-23
 =======
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+>>>>>>> origin/14-payment-gateway-integration
 //protected User route auth
 router.get("/user-auth", requireSignIn, (req, res) => {
   res.status(200).send({ ok: true });
@@ -65,6 +72,7 @@ router.get("/user-auth", requireSignIn, (req, res) => {
 router.get("/admin-auth", requireSignIn, isAdmin, (req, res) => {
   res.status(200).send({ ok: true });
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,5 +101,10 @@ router.get("/admin-auth", requireSignIn, isAdmin, (req, res) => {
 //update profile
 router.put("/profile", requireSignIn, updateProfileController);
 >>>>>>> origin/13-cart-and-UserProfile-vid-24-25
+=======
+
+//update profile
+router.put("/profile", requireSignIn, updateProfileController);
+>>>>>>> origin/14-payment-gateway-integration
 
 export default router;
