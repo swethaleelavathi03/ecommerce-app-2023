@@ -65,6 +65,7 @@ const Header = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <li className="nav-item">
                     <NavLink
                       onClick={handleLogout}
@@ -84,6 +85,8 @@ const Header = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
                   <li className="nav-item dropdown">
                     <NavLink
                       className="nav-link dropdown-toggle"
@@ -101,6 +104,7 @@ const Header = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <NavLink to="/dashboard" className="dropdown-item">
 =======
 =======
@@ -111,12 +115,15 @@ const Header = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
                         <NavLink
                           to={`/dashboard/${
                             auth?.user?.role === 1 ? "admin" : "user"
                           }`}
                           className="dropdown-item"
                         >
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +137,8 @@ const Header = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
                           Dashboard
                         </NavLink>
                       </li>
@@ -148,6 +157,7 @@ const Header = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -159,6 +169,8 @@ const Header = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
                   </li>
                 </>
               )}

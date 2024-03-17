@@ -11,6 +11,7 @@ export const createCategoryController = async (req, res) => {
       return res.status(200).send({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         success: true,
 =======
         success: false,
@@ -18,6 +19,9 @@ export const createCategoryController = async (req, res) => {
 =======
         success: false,
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+        success: false,
+>>>>>>> origin/10-Update-Delete-Product-vid-20
         message: "Category Already Exisits",
       });
     }

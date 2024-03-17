@@ -7,6 +7,7 @@ import axios from "axios";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
@@ -46,11 +47,17 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+import { useNavigate, useLocation } from "react-router-dom";
+import toast from "react-hot-toast";
+import "../../styles/AuthStyles.css";
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 import { useAuth } from "../../context/auth";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +97,11 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+
+  const navigate = useNavigate();
+  const location = useLocation();
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 
   // form function
   const handleSubmit = async (e) => {
@@ -101,6 +113,7 @@ const Login = () => {
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,12 +134,15 @@ const Login = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
         setAuth({
           ...auth,
           user: res.data.user,
           token: res.data.token,
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +169,9 @@ const Login = () => {
 =======
         navigate(location.state || "/");
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+        navigate(location.state || "/");
+>>>>>>> origin/10-Update-Delete-Product-vid-20
       } else {
         toast.error(res.data.message);
       }
@@ -195,6 +214,7 @@ const Login = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -206,6 +226,8 @@ const Login = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
           <div className="mb-3">
             <button
               type="button"
@@ -222,6 +244,7 @@ const Login = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -233,6 +256,8 @@ const Login = () => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 
           <button type="submit" className="btn btn-primary">
             LOGIN

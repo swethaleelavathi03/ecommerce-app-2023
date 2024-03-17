@@ -5,6 +5,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Spinner = () => {
   const [count, setCount] = useState(5);
 =======
@@ -27,6 +28,10 @@ const Spinner = ({ path = "login" }) => {
 const Spinner = ({ path = "login" }) => {
   const [count, setCount] = useState(3);
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+const Spinner = ({ path = "login" }) => {
+  const [count, setCount] = useState(3);
+>>>>>>> origin/10-Update-Delete-Product-vid-20
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -35,6 +40,7 @@ const Spinner = ({ path = "login" }) => {
       setCount((prevValue) => --prevValue);
     }, 1000);
     count === 0 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,11 +60,14 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
       navigate(`/${path}`, {
         state: location.pathname,
       });
     return () => clearInterval(interval);
   }, [count, navigate, location, path]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +81,8 @@ const Spinner = ({ path = "login" }) => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
   return (
     <>
       <div

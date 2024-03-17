@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -8,6 +9,8 @@ const CreateCategory = () => {
 =======
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 import React, { useEffect, useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
@@ -45,12 +48,17 @@ const CreateCategory = () => {
     try {
       const { data } = await axios.get("/api/v1/category/get-category");
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (data.success) {
         setCategories(data.category);
 =======
       if (data?.success) {
         setCategories(data?.category);
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+      if (data?.success) {
+        setCategories(data?.category);
+>>>>>>> origin/10-Update-Delete-Product-vid-20
       }
     } catch (error) {
       console.log(error);
@@ -101,9 +109,12 @@ const CreateCategory = () => {
     }
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
   return (
     <Layout title={"Dashboard - Create Category"}>
       <div className="container-fluid m-3 p-3">
@@ -114,10 +125,13 @@ const CreateCategory = () => {
           <div className="col-md-9">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <h1>Create Category</h1>
 =======
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
             <h1>Manage Category</h1>
             <div className="p-3 w-50">
               <CategoryForm
@@ -177,9 +191,12 @@ const CreateCategory = () => {
               />
             </Modal>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
           </div>
         </div>
       </div>

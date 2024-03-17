@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "client":"npm start --prefix ./client",
 =======
     "client": "npm start --prefix ./client",
@@ -24,6 +25,9 @@
 =======
     "client": "npm start --prefix ./client",
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+    "client": "npm start --prefix ./client",
+>>>>>>> origin/10-Update-Delete-Product-vid-20
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],

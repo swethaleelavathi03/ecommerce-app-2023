@@ -39,6 +39,10 @@ router.get("/get-product/:slug", getSingleProductController);
 router.get("/product-photo/:pid", productPhotoController);
 
 //delete rproduct
+<<<<<<< HEAD
 router.delete("/product/:pid", deleteProductController);
+=======
+router.delete("/delete-product/:pid", deleteProductController);
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 
 export default router;

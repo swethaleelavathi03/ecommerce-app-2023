@@ -5,6 +5,7 @@ import { useState, useEffect, useContext, createContext } from "react";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const AuthContext = createContext();
 
@@ -38,6 +39,11 @@ import axios from "axios";
 
 const AuthContext = createContext();
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+import axios from "axios";
+
+const AuthContext = createContext();
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 const AuthProvider = ({ children }) => {
   const [auth, setAuth] = useState({
     user: null,
@@ -49,6 +55,7 @@ const AuthProvider = ({ children }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
@@ -60,10 +67,13 @@ const AuthProvider = ({ children }) => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
 
   //default axios
   axios.defaults.headers.common["Authorization"] = auth?.token;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +90,8 @@ const AuthProvider = ({ children }) => {
 >>>>>>> origin/08-React-Category-CRUD-vid-18
 =======
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+>>>>>>> origin/10-Update-Delete-Product-vid-20
   useEffect(() => {
     const data = localStorage.getItem("auth");
     if (data) {
@@ -90,6 +102,7 @@ const AuthProvider = ({ children }) => {
         token: parseData.token,
       });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +134,10 @@ const AuthProvider = ({ children }) => {
     //eslint-disable-next-line
   }, []);
 >>>>>>> origin/09-Create-Products-Vid-19
+=======
+    //eslint-disable-next-line
+  }, []);
+>>>>>>> origin/10-Update-Delete-Product-vid-20
   return (
     <AuthContext.Provider value={[auth, setAuth]}>
       {children}
