@@ -21,11 +21,17 @@ export const registerController = async (req, res) => {
     if (!address) {
       return res.send({ message: "Address is Required" });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     }
     if (!answer) {
       return res.send({ message: "Answer is Required" });
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+    }
+    if (!answer) {
+      return res.send({ message: "Answer is Required" });
+>>>>>>> origin/04-admin-user-panel-vid-15
     }
     //check user
     const exisitingUser = await userModel.findOne({ email });
@@ -102,6 +108,7 @@ export const loginController = async (req, res) => {
         email: user.email,
         phone: user.phone,
         adddress: user.address,
+        role: user.role,
       },
       token,
     });

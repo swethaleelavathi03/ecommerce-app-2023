@@ -11,9 +11,13 @@ const Register = () => {
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+  const [answer, setAnswer] = useState("");
+>>>>>>> origin/04-admin-user-panel-vid-15
   const navigate = useNavigate();
 
   // form function
@@ -27,9 +31,13 @@ const Register = () => {
         phone,
         address,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         answer,
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+        answer,
+>>>>>>> origin/04-admin-user-panel-vid-15
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -105,7 +113,10 @@ const Register = () => {
             />
           </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/04-admin-user-panel-vid-15
           <div className="mb-3">
             <input
               type="text"
@@ -117,7 +128,10 @@ const Register = () => {
               required
             />
           </div>
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+>>>>>>> origin/04-admin-user-panel-vid-15
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>

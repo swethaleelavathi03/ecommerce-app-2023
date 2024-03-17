@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Layout from "./../../components/Layout/Layout";
 import axios from "axios";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
@@ -16,11 +17,17 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+import { useNavigate, useLocation } from "react-router-dom";
+import toast from "react-hot-toast";
+import "../../styles/AuthStyles.css";
+>>>>>>> origin/04-admin-user-panel-vid-15
 import { useAuth } from "../../context/auth";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/02-Context-And-Logout-vid-12
 
@@ -30,6 +37,11 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+
+  const navigate = useNavigate();
+  const location = useLocation();
+>>>>>>> origin/04-admin-user-panel-vid-15
 
   // form function
   const handleSubmit = async (e) => {
@@ -43,9 +55,12 @@ const Login = () => {
         toast.success(res.data && res.data.message);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+>>>>>>> origin/04-admin-user-panel-vid-15
         setAuth({
           ...auth,
           user: res.data.user,
@@ -53,11 +68,15 @@ const Login = () => {
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/02-Context-And-Logout-vid-12
         navigate("/");
 =======
         navigate(location.state || "/");
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+        navigate(location.state || "/");
+>>>>>>> origin/04-admin-user-panel-vid-15
       } else {
         toast.error(res.data.message);
       }
@@ -95,7 +114,10 @@ const Login = () => {
             />
           </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/04-admin-user-panel-vid-15
           <div className="mb-3">
             <button
               type="button"
@@ -107,7 +129,10 @@ const Login = () => {
               Forgot Password
             </button>
           </div>
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
+=======
+>>>>>>> origin/04-admin-user-panel-vid-15
 
           <button type="submit" className="btn btn-primary">
             LOGIN
