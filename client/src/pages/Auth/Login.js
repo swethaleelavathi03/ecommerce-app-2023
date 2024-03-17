@@ -4,10 +4,18 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
+<<<<<<< HEAD
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+=======
+import { useAuth } from "../../context/auth";
+const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [auth, setAuth] = useAuth();
+>>>>>>> origin/02-Context-And-Logout-vid-12
 
   const navigate = useNavigate();
 
@@ -21,6 +29,15 @@ const Login = () => {
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
+<<<<<<< HEAD
+=======
+        setAuth({
+          ...auth,
+          user: res.data.user,
+          token: res.data.token,
+        });
+        localStorage.setItem("auth", JSON.stringify(res.data));
+>>>>>>> origin/02-Context-And-Logout-vid-12
         navigate("/");
       } else {
         toast.error(res.data.message);
