@@ -8,10 +8,14 @@
     "start": "node server.js",
     "server": "nodemon server.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "client":"npm start --prefix ./client",
 =======
     "client": "npm start --prefix ./client",
 >>>>>>> origin/06-category-API-vid-16
+=======
+    "client": "npm start --prefix ./client",
+>>>>>>> origin/07-products-api-crud-vid-17
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
@@ -24,6 +28,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.4",
     "morgan": "^1.10.0",

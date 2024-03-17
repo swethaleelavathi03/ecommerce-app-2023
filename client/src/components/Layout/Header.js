@@ -62,6 +62,7 @@ const Header = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <li className="nav-item">
                     <NavLink
                       onClick={handleLogout}
@@ -75,6 +76,8 @@ const Header = () => {
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
                   <li className="nav-item dropdown">
                     <NavLink
                       className="nav-link dropdown-toggle"
@@ -89,10 +92,13 @@ const Header = () => {
                       <li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <NavLink to="/dashboard" className="dropdown-item">
 =======
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
                         <NavLink
                           to={`/dashboard/${
                             auth?.user?.role === 1 ? "admin" : "user"
@@ -100,9 +106,12 @@ const Header = () => {
                           className="dropdown-item"
                         >
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
                           Dashboard
                         </NavLink>
                       </li>
@@ -118,11 +127,14 @@ const Header = () => {
                     </ul>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
                   </li>
                 </>
               )}

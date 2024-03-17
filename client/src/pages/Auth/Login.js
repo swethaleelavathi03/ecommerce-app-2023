@@ -4,6 +4,7 @@ import axios from "axios";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
@@ -28,11 +29,17 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 >>>>>>> origin/06-category-API-vid-16
+=======
+import { useNavigate, useLocation } from "react-router-dom";
+import toast from "react-hot-toast";
+import "../../styles/AuthStyles.css";
+>>>>>>> origin/07-products-api-crud-vid-17
 import { useAuth } from "../../context/auth";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +61,11 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 >>>>>>> origin/06-category-API-vid-16
+=======
+
+  const navigate = useNavigate();
+  const location = useLocation();
+>>>>>>> origin/07-products-api-crud-vid-17
 
   // form function
   const handleSubmit = async (e) => {
@@ -69,6 +81,7 @@ const Login = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -76,12 +89,15 @@ const Login = () => {
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
         setAuth({
           ...auth,
           user: res.data.user,
           token: res.data.token,
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +112,9 @@ const Login = () => {
 =======
         navigate(location.state || "/");
 >>>>>>> origin/06-category-API-vid-16
+=======
+        navigate(location.state || "/");
+>>>>>>> origin/07-products-api-crud-vid-17
       } else {
         toast.error(res.data.message);
       }
@@ -135,11 +154,14 @@ const Login = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
           <div className="mb-3">
             <button
               type="button"
@@ -153,11 +175,14 @@ const Login = () => {
           </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
 
           <button type="submit" className="btn btn-primary">
             LOGIN

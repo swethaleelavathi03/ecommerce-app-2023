@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout/Layout";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Dashboard = () => {
   return (
     <Layout title={"Dashboard - Ecommerce App"}>
@@ -9,6 +10,8 @@ const Dashboard = () => {
 =======
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
 import UserMenu from "../../components/Layout/UserMenu";
 import { useAuth } from "../../context/auth";
 const Dashboard = () => {
@@ -30,9 +33,12 @@ const Dashboard = () => {
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
     </Layout>
   );
 };

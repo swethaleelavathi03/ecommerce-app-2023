@@ -12,6 +12,7 @@ root.render(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <BrowserRouter>
     <App />
   </BrowserRouter>
@@ -22,11 +23,14 @@ root.render(
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
   <AuthProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
   </AuthProvider>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,6 +41,8 @@ root.render(
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
 );
 
 // If you want to start measuring performance in your app, pass a function

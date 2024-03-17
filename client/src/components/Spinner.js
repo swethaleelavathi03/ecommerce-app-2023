@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Spinner = () => {
   const [count, setCount] = useState(5);
 =======
@@ -12,6 +13,10 @@ const Spinner = ({ path = "login" }) => {
 const Spinner = ({ path = "login" }) => {
   const [count, setCount] = useState(3);
 >>>>>>> origin/06-category-API-vid-16
+=======
+const Spinner = ({ path = "login" }) => {
+  const [count, setCount] = useState(3);
+>>>>>>> origin/07-products-api-crud-vid-17
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -22,6 +27,7 @@ const Spinner = ({ path = "login" }) => {
     count === 0 &&
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       navigate("/login", {
         state: location.pathname,
       });
@@ -30,15 +36,20 @@ const Spinner = ({ path = "login" }) => {
 =======
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
       navigate(`/${path}`, {
         state: location.pathname,
       });
     return () => clearInterval(interval);
   }, [count, navigate, location, path]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
   return (
     <>
       <div

@@ -13,6 +13,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -22,6 +23,9 @@ const Register = () => {
 =======
   const [answer, setAnswer] = useState("");
 >>>>>>> origin/06-category-API-vid-16
+=======
+  const [answer, setAnswer] = useState("");
+>>>>>>> origin/07-products-api-crud-vid-17
   const navigate = useNavigate();
 
   // form function
@@ -37,6 +41,7 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         answer,
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -46,6 +51,9 @@ const Register = () => {
 =======
         answer,
 >>>>>>> origin/06-category-API-vid-16
+=======
+        answer,
+>>>>>>> origin/07-products-api-crud-vid-17
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -123,11 +131,14 @@ const Register = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
           <div className="mb-3">
             <input
               type="text"
@@ -141,11 +152,14 @@ const Register = () => {
           </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>

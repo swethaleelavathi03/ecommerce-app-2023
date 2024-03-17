@@ -2,6 +2,7 @@ import { useState, useEffect, useContext, createContext } from "react";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const AuthContext = createContext();
 
@@ -20,6 +21,11 @@ import axios from "axios";
 
 const AuthContext = createContext();
 >>>>>>> origin/06-category-API-vid-16
+=======
+import axios from "axios";
+
+const AuthContext = createContext();
+>>>>>>> origin/07-products-api-crud-vid-17
 const AuthProvider = ({ children }) => {
   const [auth, setAuth] = useState({
     user: null,
@@ -28,15 +34,19 @@ const AuthProvider = ({ children }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
 
   //default axios
   axios.defaults.headers.common["Authorization"] = auth?.token;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/03-PrivateRoutes-ForgotPassword-vid-13-14
@@ -44,6 +54,8 @@ const AuthProvider = ({ children }) => {
 >>>>>>> origin/04-admin-user-panel-vid-15
 =======
 >>>>>>> origin/06-category-API-vid-16
+=======
+>>>>>>> origin/07-products-api-crud-vid-17
   useEffect(() => {
     const data = localStorage.getItem("auth");
     if (data) {
@@ -54,6 +66,7 @@ const AuthProvider = ({ children }) => {
         token: parseData.token,
       });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +83,10 @@ const AuthProvider = ({ children }) => {
     //eslint-disable-next-line
   }, []);
 >>>>>>> origin/06-category-API-vid-16
+=======
+    //eslint-disable-next-line
+  }, []);
+>>>>>>> origin/07-products-api-crud-vid-17
   return (
     <AuthContext.Provider value={[auth, setAuth]}>
       {children}
